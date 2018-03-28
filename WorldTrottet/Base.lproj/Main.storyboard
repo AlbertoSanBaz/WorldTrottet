@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-6i-uaD">
-                                <rect key="frame" x="40" y="120" width="296" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ND6-6i-uaD">
+                                <rect key="frame" x="0.0" y="120" width="375" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d69-BJ-W9c">
-                                <rect key="frame" x="130.5" y="171" width="114" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d69-BJ-W9c">
+                                <rect key="frame" x="0.0" y="171" width="375" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,14 +36,14 @@
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw0-3R-bRT">
-                                <rect key="frame" x="65" y="314" width="246" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw0-3R-bRT">
+                                <rect key="frame" x="0.0" y="314" width="375" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Npw-rv-6Wr">
-                                <rect key="frame" x="62.5" y="28" width="250" height="84"/>
+                                <rect key="frame" x="62" y="28" width="250" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="OCQ-8S-2CL"/>
                                 </constraints>
@@ -64,12 +64,18 @@
                             <constraint firstItem="d69-BJ-W9c" firstAttribute="top" secondItem="ND6-6i-uaD" secondAttribute="bottom" constant="8" id="IQv-fK-V2O"/>
                             <constraint firstItem="d69-BJ-W9c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IRd-b5-x9b"/>
                             <constraint firstItem="aw0-3R-bRT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P66-4Z-Zxc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ND6-6i-uaD" secondAttribute="trailing" id="Ryn-0P-r3f"/>
                             <constraint firstItem="ND6-6i-uaD" firstAttribute="top" secondItem="Npw-rv-6Wr" secondAttribute="bottom" constant="8" id="Utw-0G-KI5"/>
                             <constraint firstItem="Rke-Jd-97u" firstAttribute="top" secondItem="d69-BJ-W9c" secondAttribute="bottom" constant="8" id="UvZ-7Y-8cy"/>
                             <constraint firstItem="ND6-6i-uaD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WUU-Ip-Oaj"/>
+                            <constraint firstItem="aw0-3R-bRT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZkS-xL-SOh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d69-BJ-W9c" secondAttribute="trailing" id="c9w-a6-NVo"/>
                             <constraint firstItem="Npw-rv-6Wr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="ccm-RH-96k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aw0-3R-bRT" secondAttribute="trailing" id="eUR-Jl-gBD"/>
+                            <constraint firstItem="d69-BJ-W9c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fA4-sT-dQx"/>
                             <constraint firstItem="Npw-rv-6Wr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jsW-94-E1a"/>
                             <constraint firstItem="Rke-Jd-97u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="reP-QL-MgO"/>
+                            <constraint firstItem="ND6-6i-uaD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="slA-hu-UtM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -95,10 +101,6 @@
         <scene sceneID="QmB-Ju-oMU">
             <objects>
                 <viewController id="wbc-9h-s3q" customClass="MapViewController" customModule="WorldTrottet" customModuleProvider="target" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="ROx-ih-fbH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="RbM-Vv-veg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bO-pN-THC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -111,6 +113,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="QK9-Dv-MXD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KHp-QO-ISZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
